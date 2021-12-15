@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+}
+.inner{
+    width: calc(100% - 505px);
+    margin: 0 auto;
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner .logo{
+    display: block;
+}
+
+.inner .menu ul{
+    display:flex;
+}
+
+.inner .menu li a{
+    position: relative;
+    top: 7px;
+    color:black;
+    font-size: 14px;
+    margin: 30px;
+}
