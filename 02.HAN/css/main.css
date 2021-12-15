@@ -1,0 +1,116 @@
+.inner{
+    width: calc(100% - 700px);
+    height: 132px;
+    margin: 0 auto;
+}
+
+.inner .logo{
+    padding-top : 25px;
+    height : 35px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items:flex-start;
+    justify-content:space-between;
+}
+
+.inner .logo h1 button{
+    position: relative;
+    right:-5px;
+    top: -5px;
+    border: none;
+    cursor: pointer;
+}
+
+.inner .logo h1 span a{
+    position: relative;
+    left: -2px;
+    top: -6px;
+    color : #666666;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inner .mymenu{
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-start;
+}
+
+.inner .logo .mymenu li{
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid gray;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inner .logo .mymenu li:first-child{
+    margin: 0px;
+    padding:0px;
+    border: 0;
+}
+
+.inner .bottom_step{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner .bottom_step .menu{
+    display : flex;
+}
+
+.inner .bottom_step .menu li{
+    margin-left: 10px;
+    margin-right : 10px;
+    font-size: 20px;
+}
+
+.inner .bottom_step .menu li .line{
+    width:20px;
+    height:3px;
+    background-color: #000;
+    margin-top: 5px;
+}
+
+.inner .bottom_step .menu li .line:first-child{
+    margin-top: 0px;
+}
+
+.inner .bottom_step .menu li button{
+    border: none;
+    background: none;
+}
+
+.inner .bottom_step .menu li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inner .bottom_step .gnb{
+    display : flex;
+}
+
+.inner .gnb li input{
+    width: 330px;
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    background-image: url(../img/btnSearch.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+}
+
+.inner .gnb li a{
+    width: 45px;
+    height:35px;
+    margin-left: 20px;
+    display: block;
+    background-image: url("../img/btnCart.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}

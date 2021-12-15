@@ -1,0 +1,94 @@
+@charset "utf-8";
+header{
+    width: 100%;
+}
+
+header .inner{
+    width: calc(100% - 354px);
+    height: 70px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .inner .logo{
+    width: 110px;
+    height: 20px;
+}
+
+header .inner .logo h1{
+
+}
+
+header .inner .logo h1 a{
+    display: block;
+    width: 110px;
+    height: 20px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+header .inner .nav{
+    display : flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+header .inner .nav li{
+    margin-right: 25px;
+}
+
+header .inner .nav li:last-child{
+    margin-right: 0;
+}
+
+header .inner .nav li a{
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header .inner .gnb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .inner .gnb li{
+    margin-right: 20px;
+}
+
+header .inner .gnb li:nth-child(2) a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/icon-login.png");
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+
+header .inner .gnb li:nth-child(3) a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/icon-cart.png");
+    background-repeat : no-repeat;
+    background-position : center center;
+}
+
+header .inner .gnb li input{
+    width: 160px;
+    height: 25px;
+    border: 1px solid #e21244;
+    border-radius: 20px;
+    background-image: url(../img/icon-find.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) center;
+}
+
+header .inner .gnb li {
+
+}
