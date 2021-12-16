@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    width: 100%;
+}
+
+.inner .logo{
+    width: calc(100% - 170px);
+    margin: 0 auto;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.inner .logo .menu{
+    display: flex;
+}
+
+.inner .logo .menu li{
+    margin-right: 30px;
+}
+
+.inner .logo .menu li a{
+    font-weight: bold;
+    color:black;
+}
+
+
+
+
+
+.inner .logo .mine{
+    display: flex;
+}
+
+.inner .logo .mine li{
+    margin-right: 30px;
+}
+
+.inner .logo .mine li img{
+    cursor: pointer;
+}
