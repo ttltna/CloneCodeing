@@ -3,19 +3,19 @@ body{
     padding: 0;
 }
 
-.inner{
+header .inner{
     margin: 0 auto;
     width: calc(100% - 350px);
     padding-top: 30px;
 }
 
-.inner .logo{
+header .inner .logo{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.inner .logo input{
+header .inner .logo input{
     width: 330px;
     background-image : url("../img/pointer.png"); 
     background-position:left; 
@@ -27,20 +27,20 @@ body{
     font-size: 14px;
 }
 
-.inner .logo ul{
+header .inner .logo ul{
     display: flex;
 }
 
-.inner .logo ul li{
+header .inner .logo ul li{
     margin-right: 25px;
 }
 
-.inner .logo ul li a{
+header .inner .logo ul li a{
     font-size: 13px;
     color:black;
 }
 
-.inner .logo ul li button{
+header .inner .logo ul li button{
     width: 60px;
     height: 25px;
     color:#888890;
@@ -53,7 +53,7 @@ body{
     cursor: pointer;
 }
 
-.inner .gnb{
+header .inner .gnb{
     width: calc(100% - 100px);
     padding-top: 40px;
     display: flex;
@@ -61,22 +61,22 @@ body{
     justify-content: space-around;
 }
 
-.inner .gnb ul{
+header .inner .gnb ul{
     display: flex;
 }
 
-.inner .gnb ul li{
+header .inner .gnb ul li{
     margin-right: 130px;
     position: relative;
     left:20px;
 }
 
-.inner .gnb ul li a{
+header .inner .gnb ul li a{
     font-size: 18px;
     color: black;
 }
 
-.inner .gnb button{
+header .inner .gnb button{
     border: none;
     background-color: white;
     cursor: pointer;

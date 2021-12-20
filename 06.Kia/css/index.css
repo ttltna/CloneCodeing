@@ -1,31 +1,53 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    /* background-color: black; */
 }
 
-.inner{
+header{
+    position: fixed;
+}
+
+header .inner{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
     width: calc(100% - 30px);
 }
 
-.inner .logo img{
+header .inner .logo img{
     margin-left: 30px;
 }
 
-.inner .gnb ul{
+header .inner .gnb ul{
     display: flex;
 }
 
-.inner .gnb ul li a{
+header .inner .gnb ul li a{
     color:white;
     font-weight: bold;
     margin-right: 35px;
     font-size: 19px;
 }
 
-.inner .gnb ul li img{
+header .inner .gnb ul li img{
     margin-right: 20px;
+}
+
+.svg_box{
+    fill: darkblue;
+}
+
+main{
+    width: 100%;
+}
+
+main video{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+}
+
+main .text_wrap{
+
 }
