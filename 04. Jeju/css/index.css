@@ -2,6 +2,28 @@ body{
     margin:0;
     padding: 0;
 }
+
+/* btns */
+
+.btns{
+    position: fixed;;
+    display: flex;
+    flex-direction: column;
+    right: 30px;
+    bottom: 50px;
+}
+
+.btns a{
+    margin-top: 10px;
+}
+
+.btns img{
+    border-radius: 50%;
+}
+
+/* //btns */
+
+
 /* header */
 header{
     width: 100%;
@@ -79,5 +101,27 @@ main{
 
 main .maekju_video{
     width: 100%;
+    border: none;
 }
 /* //main */
+
+/* section01 */
+
+.section01{
+    width: 100%;
+}
+
+.section01 .inner img{
+    margin-left: 30%;
+    margin-bottom: 14%;
+}
+
+.section01 .video iframe{
+    position: absolute;
+    left: 21%;
+    margin: 0 auto;
+    width: 1200px;
+    height: 660px;
+}
+
+/* //section01 */

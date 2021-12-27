@@ -1,8 +1,53 @@
+/* cupon_btn */
+.cupon_btn{
+    position: fixed;
+    right: 160px;
+    top: 180px;
+    animation: swing .6s .2s infinite alternate;
+    z-index: 2;
+}
+
+@keyframes swing {
+    0%{
+        top:180px;
+    }
+    100%{
+        top:190px;
+    }
+}
+
+.cupon_btn .close{
+    position: absolute;
+    top:20px;
+    right: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+/* //cupon_btn */
+
+/* domi_chat */
+.domi_chat{
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #787878;
+    right: 4.1%;
+    bottom: 7.6%;
+    text-align: center;
+    line-height: 65px;
+    z-index: 2;
+}
+/* //domi_chat */
+
+
 body{
     margin: 0;
     padding: 0;
 }
 
+/* header */
 header .inner{
     margin: 0 auto;
     width: calc(100% - 350px);
@@ -40,7 +85,7 @@ header .inner .logo ul li a{
     color:black;
 }
 
-header .inner .logo ul li button{
+header .inner .logo ul li select{
     width: 60px;
     height: 25px;
     color:#888890;
@@ -50,6 +95,7 @@ header .inner .logo ul li button{
     font-size: 12px;
     position: relative;
     top: -2px;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -82,3 +128,110 @@ header .inner .gnb button{
     cursor: pointer;
     font-size: 16px;
 }
+/* //header */
+
+/* main */
+main{
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+main .main_container .play_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 101px;
+    height: 42px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+
+    border-radius: 50px;
+    background-color: #565656;
+}
+
+main .main_container .play_btn li:first-child{
+    margin-right: 10%;
+}
+
+main .main_container ul li .more{
+    color: white;
+    font-size: 18px;
+}
+
+main .main_container ul li .play{
+    color: #D9CE3F;
+}
+
+main .main_container .page_move{
+    position: absolute;
+    width: 100%;
+    left: 1px;
+    top: 40%;
+}
+
+main .main_container .page_move .before{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 1px solid #565656;
+    border-left: 1px solid #565656;
+    transform: rotate(-45deg);
+    margin-left: 100px;
+
+    /* transform: translateY(-50%); */
+}
+
+main .main_container .page_move .after{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    border-top: 1px solid #565656;
+    border-left: 1px solid #565656;
+    transform: rotate(135deg);
+    margin-right: 100px;
+}
+/* //main */
+
+/* section01 */
+
+.section01{
+    width: 100%;
+    position: relative;
+}
+
+.section01 .inner ul{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section01 .inner ul .delivery_order a{
+    width: 52px;
+    height: 38px;
+    background-image: url("../img/sp_common.png");
+    background-repeat: no-repeat;
+    background-position: -193px -273px;
+}
+
+.section01 .inner ul .package_order a{
+    width: 40px;
+    height: 39px;
+    background-image: url("../img/sp_common.png");
+    background-repeat: no-repeat;
+    background-position: -245px -273px;
+}
+
+.section01 .inner ul .quick_order{
+    
+}
+
+/* //section01 */

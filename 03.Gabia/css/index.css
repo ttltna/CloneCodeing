@@ -79,9 +79,10 @@ main .main_img .more{
     border: 1px solid white;
     border-radius: 50px;
 
-    font-size: 15px;
+    font-size: 14px;
     color: white;
     text-align: center;
+    line-height: 48px;
 }
 
 main .main_img .swiper{
@@ -100,5 +101,68 @@ main .main_img .swiper span{
     border-radius: 6px;
 
     margin-right: 5px;
+    cursor: pointer;
 }
 /* // main */
+
+/* section01 */
+.section01{
+    width: 100%;
+}
+
+.section01 .inner{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.section01 .inner h1{
+    margin: 0 auto;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+.section01 .inner ul{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+}
+
+.section01 .inner ul li{
+    width: 50%;
+    height: 170px;
+}
+
+.section01 .inner ul li img{
+    position: absolute;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section01 .inner ul li a{
+    display: block;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.section01 .inner ul li a:hover{
+    border-bottom: 2px solid black;
+}
+
+.section01 .inner ul li span p{
+    position: relative;
+    left: 30%;
+    top: 40%;
+    color: #7C7C7C;
+    line-height: 1.5em;
+    cursor: pointer;
+}
+
+/* //section01 */

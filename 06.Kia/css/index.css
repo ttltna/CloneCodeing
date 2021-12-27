@@ -1,18 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-    /* background-color: black; */
 }
 
+
+/* header */
 header{
     position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 header .inner{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
-    width: calc(100% - 30px);
 }
 
 header .inner .logo img{
@@ -37,9 +40,15 @@ header .inner .gnb ul li img{
 .svg_box{
     fill: darkblue;
 }
+/* //header */
 
+/* main */
 main{
     width: 100%;
+}
+
+main .video_box {
+    z-index: -1;
 }
 
 main video{
@@ -48,6 +57,99 @@ main video{
     object-fit:cover;
 }
 
-main .text_wrap{
-
+main .more .play{
+    width: 70px;
+    height: 70px;
 }
+
+main .more .play img{
+    position: absolute;
+    left: 48%;
+    top: 47%;
+    border-radius: 50%;
+}
+
+main .more .font{
+    position: absolute;
+    top: 56%;
+    left: 48.5%;
+    color: white;
+}
+
+main .text_wrap{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    color: white;
+}
+
+main .text_wrap h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+main .text_wrap p{
+    color: #959396;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .Down a img{
+    position: absolute;
+    left: 49.5%;
+    bottom: 10%;
+    animation: swing .6s .2s infinite alternate;
+}
+
+@keyframes swing{
+    0%{
+        bottom: 10%;
+    }
+
+    100%{
+        bottom: 9%;
+    }
+}
+/* //main */
+
+/* section01 */
+
+.section01{
+    position: relative;
+}
+
+.section01 .inner img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section01 .inner .vision ul{
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section01 .inner .vision ul li{
+    margin-bottom: 50px;
+    line-height: 2.3em;
+}
+
+.section01 .inner .vision ul li h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.section01 .inner .vision ul li p{
+    font-size: 23px;
+    color: #CDB9BF
+}
+
+/* //section01 */

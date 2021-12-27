@@ -1,5 +1,33 @@
+/* topBtn */
+.top_btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: gray;
+    z-index: 10;
+    position: fixed;
+    right:50px; bottom:50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.top_btn:hover{
+    font-size: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
 header{
     width: 100%;
+}
+
+.inner{
+    width: calc(100% - 354px);
+    margin: 0 auto;
 }
 
 header .inner{
@@ -92,6 +120,23 @@ header .inner .gnb li {
 
 }
 
+header .inner p{
+    width:20px;
+    height: 20px;
+
+    position: absolute;
+    right: 190px;
+    top: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
 /* main */
 
 main{
@@ -121,20 +166,153 @@ main .dot li a{
     display: block;
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: black;
     border-radius: 100%;
     margin-left: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* //main */
+
+/* section01 */
+
+.section01{
+    width: 100%;
+    position: relative;
+}
+.section01 .inner{
+    padding: 6rem;
+    position: relative;
+}
+.section01 .inner h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.section01 .inner .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section01 .inner .items li{
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section01 .inner .items li:first-child{
+    margin-right: 80px;
+}
+
+.section01 .inner .items li > a{
+    display: block;
+    position: relative;
+}
+
+.section01 .inner .items li > a img{
+    width: 100%;
+}
+.section01 .inner .items li .text_box{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+}
+
+.section01 .inner .items li .text_box p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+.section01 .inner .items li .text_box a:last-child{
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    background-color: #EB1F4C;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+.section01 .inner .items li a .gra{
+    display: block;
+    position: absolute;
+    left:0;
+    top:50%;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(transparent, black 100%);
+}
+
+.section01 .inner .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section01 .inner .btn a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 60px;
+    margin-right: 8px;
+    border-radius : 50%;
+    background-color: black;
+}
+/* //section01 */
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #59595B;
+}
+
+footer .inner{
+    padding: 60px;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+footer .inner a{
+    color : #F3F3F3;
+}
+
+footer .inner h2{
+    margin-bottom: 30px;
+}
+
+footer .inner ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+footer .inner .link{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer .inner .link li{
+    margin-right: 10px;
+    position: relative;
+}
+footer .inner .link li a{
+}
+footer .inner .link li a::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right:-5px; top:0;
+    background-color: white;
+}
+/* //footer */

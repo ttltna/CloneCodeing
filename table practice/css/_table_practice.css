@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section01{
+    width: 100%;
+}
+
+.section01 table{
+    /* border : 1px solid blue; */
+    width: calc(100 - 20%);
+    margin: 0 auto;
+}
+
+.section01 table caption{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section01 table thead tr .value{
+    background-color: #A1A1A1;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section01 table tbody tr td{
+    padding-right: 20px;
+}
+
+.section01 table tbody tr .year1{
+    background-color: #7fffd4;
+}
+.section01 table tbody tr .year2{
+    background-color: #87cefa;
+}
+.section01 table tbody tr .year3{
+    background-color: #ff009f;
+}
+.section01 table tbody tr .year4{
+    background-color: #00ff7f;
+}
+
+.section01 table tbody tr .left_top_right_border{
+    border-top: 1px dashed black;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+}
+
+.section01 table tbody tr .left_bottom_right_border{
+    border-bottom: 1px dashed black;
+    border-right: 1px dashed black;
+    border-left : 1px dashed black;
+}
+
+.section01 table tbody tr .left_right_border{
+    border-right: 1px dashed black;
+    border-left : 1px dashed black;
+}
